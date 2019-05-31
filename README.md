@@ -1,26 +1,32 @@
 # stm32 工程  包含 Lib3.5官方库
 
 ## 环境参数
-* linux
+* archlinux--linux-kernel-4.19.28s
 * arm-none-eabi-gcc
 * stm32 Lib3.5
 
-## 目录结构
->makefile    
->>usr ---- 用户源文件头文件存放地方    
->>output ---- 编译输出    
->>lib ---包含启动文件，函数库等   
+## Archlinux Software-Needed
+* arm-none-eabi-binutils
+* arm-none-eabi-gcc
+* arm-none-eabi-gdb
+* arm-none-eabi-newlib
+* stlink
 
-## 使用方法    
-* 拷贝工程，放在个人工作目录即可     
+## Directory structure
+> makefile    
+>> usr ---- user's source files place here    
+>> output ---- compiler output    
+>> lib ---contains startup files and libs...   
+
+## Usage    
+* Copy to your project directory     
 
 ## makefile 
+see more in makefile
 
-详细请查看makefile内容
-
-## 修改记录：   
+## Updates：   
 >2018.12.21      
-*修改优化makefile   
+* optimize makefile   
 >2019.02.11   
 *修改makefile,将输出文件整理到output文件夹内    
 
